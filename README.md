@@ -12,16 +12,13 @@ Scripts de los Trabajos Practicos en C y sus respectivos diagramas.
 
 Una vez creado el codigo fuente debemos crear el archivo objeto y despues el ejecutable.
 
-1. Generamos el archibo objeto.
+1. Generar el archivo objeto.
    
    ```bash
    gcc -c codigofuente.c
    ```
-
-2. Generamos el ejecutable.
+2. Generar el ejecutable.
    
    ```bash
    gcc -o nombre_del_ejecutable archivo_objeto.o
    ```
-
-### 
