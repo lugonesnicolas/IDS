@@ -1,5 +1,7 @@
 # Introduccion al Desarrollo de Software
 
+![Icono de C](https://icons8.com/icon/40670/c-programming)
+
 **Profesor:** Misael Cudek
 
 **Alumno:** Nicolas Ezequiel Lugones
