@@ -4,18 +4,21 @@
 
 int main()
 {
-    int stock=40;//Inicializamos las variables
     int producto=0;
 
     printf("Ingrese la cantidad que hay del producto\n");//Pedimos el dato
     scanf("%d", &producto);
 
-    if(producto>stock)//Comparamos y mostramos la condicion
+    if(producto>40)//Comparamos y mostramos la condicion
     {
         printf("Stock alto");
-    }else
+    }else if(producto<10)
     {
         printf("Stock bajo");
+    }
+    else
+    {
+        printf("Stock regular");
     }
 
 
