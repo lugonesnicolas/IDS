@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
@@ -6,26 +7,23 @@ int main()
     int edad = 0;
     int telefono[15];
     int par = 0;
+    char fin[] = "fin";
+    int x = 0;
 
     printf("Ingrese su nombre\n");
     scanf("%s", nombre);
-
     printf("Ingrese su edad\n");
     scanf("%d", &edad);
     printf("Ingrese su numero de telefono\n");
     scanf("%s", telefono);
-    par = edad % 2;
+    x = strcmp(nombre, fin);
 
-    if (par == 0)
+    while (x != 0)
     {
-        printf("Su edad es un numero par\n");
+        printf("Ingrese su nombre\n");
+        scanf("%s", nombre);
+        x = strcmp(nombre, fin);
     }
-    else
-    {
-        printf("Su edad es una numero impar\n");
-    }
-
-    printf("Gracias %s", nombre);
 
     return (0);
 }

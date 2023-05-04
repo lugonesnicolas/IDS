@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
     int precio = 1000;
     int dia = 0;

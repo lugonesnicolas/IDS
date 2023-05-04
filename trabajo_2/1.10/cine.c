@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* Realizar un programa que indique el valor de la entrada al cine según día de la semana. (Lunes, Martes Jueves precio normal), Miércoles 50% precio , viernes sábado y domingo doble precio. */
 
-main()
+int main()
 {
     int precio = 1000;
     int dia = 0;
