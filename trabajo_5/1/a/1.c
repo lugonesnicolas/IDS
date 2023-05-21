@@ -4,15 +4,15 @@ void positivo(int a)
 {
     if(a>0)
     {
-        printf("Es positivo");
+        printf("Es positivo\n");
     }
     else if(a<0)
     {
-        printf("Es negativo");
+        printf("Es negativo\n");
     }
     else
     {
-        printf("Es 0");
+        printf("Es 0\n");
     }
 }
 

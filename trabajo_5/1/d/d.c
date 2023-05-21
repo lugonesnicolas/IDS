@@ -16,12 +16,13 @@ void numtochar(unsigned int nom,char nom2[])
 {
     int um,c,d,u;
     um= (nom-(nom%1000))/1000;
-    printf("%d \n", nom%1000);
+    printf("%d \n", nom);
     c= (nom-(nom%100)-(nom-nom%1000))/100;
-    printf("%d \n", nom%100);
+    printf("%d \n", nom%1000);
     d= (nom-(nom%10)-(nom-nom%1000)-(nom-(nom%100)-(nom-nom%1000)))/10;
-    printf("%d \n", nom%10);
+    printf("%d \n", nom%100);
     u= nom-um*1000-c*100-d*10;
+    printf("%d \n", nom%10);
 
     nom2[0]=um+'0';
     nom2[1]=c+'0';
