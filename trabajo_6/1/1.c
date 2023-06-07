@@ -73,7 +73,7 @@ void mostrarDatos(struct datos p[], int tam)
       printf("Nombre:%s ", p[i].nombre);
       printf("%s ", p[i].apellido);
       printf("DNI:%s ", p[i].dni);
-      printf("Promedio:%2.f\n", p[i].promedio);
+      printf("Promedio:%.2f\n", p[i].promedio);
     }
   }
 }
